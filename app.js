@@ -47,9 +47,9 @@ app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.ico')));
 
 
 // default value for title local
-//app.locals.title = 'Esto lo cambió Diego';
-//app.locals.title = 'Nopooo, te dije que así era, sin punto y coma;'
-app.locals.titlee = 'Este es el bueno ahora si en serio x5'
+//app.locals.title = 'Esto lo cambió Cris';
+app.locals.title = 'pongan atención chavitos'
+
 
 
 const index = require('./routes/index');
